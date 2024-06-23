@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dw7ejaer75wu8"]
+
+[ext_resource type="Script" path="res://classes/equipment/weapon.gd" id="1_7tofr"]
+
+[node name="SimpleSword" type="Node2D"]
+script = ExtResource("1_7tofr")
+magical_atk = 5.0
+weight = 3.0
+crit_chance = 2.0
+itemName = "Simple Sword"
